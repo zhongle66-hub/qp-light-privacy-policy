@@ -1,24 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy - QPLight / 潜派创新</title>
+    <title>潜派创新隐私政策 - QPLight Privacy Policy</title>
     <style>
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
-        
+
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif;
             line-height: 1.8;
             color: #333;
             background-color: #f5f5f5;
             padding: 20px;
         }
-        
+
         .container {
             max-width: 900px;
             margin: 0 auto;
@@ -27,7 +27,7 @@
             border-radius: 8px;
             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
         }
-        
+
         h1 {
             color: #2c3e50;
             font-size: 2em;
@@ -35,7 +35,7 @@
             padding-bottom: 15px;
             border-bottom: 3px solid #3498db;
         }
-        
+
         h2 {
             color: #34495e;
             font-size: 1.5em;
@@ -44,48 +44,67 @@
             padding-left: 10px;
             border-left: 4px solid #3498db;
         }
-        
+
         h3 {
             color: #2c3e50;
             font-size: 1.2em;
             margin-top: 25px;
             margin-bottom: 10px;
         }
-        
+
         p {
             margin-bottom: 15px;
             text-align: justify;
         }
-        
+
         ul {
             margin-left: 30px;
             margin-bottom: 15px;
         }
-        
+
         li {
             margin-bottom: 8px;
         }
-        
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+            font-size: 0.95em;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px 12px;
+            text-align: left;
+            vertical-align: top;
+        }
+
+        th {
+            background-color: #f8f9fa;
+            font-weight: 600;
+        }
+
         .last-updated {
             color: #7f8c8d;
             font-style: italic;
             margin-bottom: 30px;
             font-size: 0.95em;
         }
-        
+
         .language-section {
             margin-top: 50px;
             padding-top: 40px;
             border-top: 2px dashed #bdc3c7;
         }
-        
+
         .highlight {
             background-color: #fff3cd;
             padding: 2px 6px;
             border-radius: 3px;
             font-weight: 600;
         }
-        
+
         .important-note {
             background-color: #e8f4f8;
             border-left: 4px solid #3498db;
@@ -93,231 +112,389 @@
             margin: 20px 0;
             border-radius: 4px;
         }
-        
+
         .contact-info {
             background-color: #f8f9fa;
             padding: 20px;
             border-radius: 6px;
             margin-top: 20px;
         }
-        
+
+        code {
+            background-color: #f1f1f1;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-size: 0.9em;
+            font-family: ui-monospace, Menlo, Consolas, monospace;
+        }
+
         @media (max-width: 768px) {
             .container {
                 padding: 25px;
             }
-            
+
             h1 {
                 font-size: 1.6em;
             }
-            
+
             h2 {
                 font-size: 1.3em;
+            }
+
+            table {
+                font-size: 0.85em;
+            }
+
+            th, td {
+                padding: 8px;
             }
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <!-- English Version -->
-        <section id="english">
-            <h1>Privacy Policy for QPLight</h1>
-            <p class="last-updated">Last updated: January 2026</p>
-            
-            <h2>1. Introduction</h2>
-            <p>Welcome to QPLight ("we," "our," or "us"). We are committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application (the "App").</p>
-            <p>By using the App, you agree to the collection and use of information in accordance with this policy. If you do not agree with the terms of this Privacy Policy, please do not access the App.</p>
-            
-            <h2>2. Information We Collect</h2>
-            
-            <h3>2.1 Information You Provide</h3>
-            <p>We do not collect any personal information that you voluntarily provide through the App. The App does not require user registration or account creation.</p>
-            
-            <h3>2.2 Automatically Collected Information</h3>
-            <p>The App may collect certain information automatically, including:</p>
-            <ul>
-                <li>Device information (device model, operating system version)</li>
-                <li>App usage data (features used, session duration)</li>
-                <li>Crash reports and performance data (if enabled)</li>
-            </ul>
-            
-            <h3>2.3 Bluetooth and Location Data</h3>
-            <p>To provide core functionality, the App requires access to:</p>
-            <ul>
-                <li><strong>Bluetooth</strong>: To discover, connect to, and control BLE-enabled lighting devices</li>
-                <li><strong>Location Services</strong>: Required by Android OS to scan for nearby Bluetooth devices</li>
-            </ul>
-            
-            <div class="important-note">
-                <strong>Important Notes:</strong>
-                <ul style="margin-top: 10px;">
-                    <li>We do <span class="highlight">NOT</span> collect, store, or transmit your location data to any server</li>
-                    <li>Location permission is only used locally on your device for Bluetooth scanning</li>
-                    <li>Bluetooth connection data remains on your device and is not shared with third parties</li>
-                    <li>Device names and MAC addresses are stored locally for your convenience</li>
-                </ul>
-            </div>
-            
-            <h2>3. How We Use Your Information</h2>
-            <p>We use the collected information solely for the following purposes:</p>
-            <ul>
-                <li>To enable Bluetooth connectivity with lighting devices</li>
-                <li>To provide light control functionality (brightness, color, temperature)</li>
-                <li>To save your device pairing preferences locally</li>
-                <li>To improve app performance and user experience</li>
-                <li>To troubleshoot technical issues</li>
-            </ul>
-            
-            <h2>4. Data Storage and Security</h2>
-            
-            <h3>4.1 Local Storage</h3>
-            <p>All data collected by the App is stored <span class="highlight">locally on your device</span>, including:</p>
-            <ul>
-                <li>Paired device information (device name, MAC address)</li>
-                <li>User preferences (brightness levels, color settings)</li>
-                <li>Application settings</li>
-            </ul>
-            
-            <h3>4.2 No Server Communication</h3>
-            <p>The App does <span class="highlight">NOT</span>:</p>
-            <ul>
-                <li>Upload any data to external servers</li>
-                <li>Share data with third-party services</li>
-                <li>Use cloud storage or synchronization</li>
-                <li>Track user behavior for advertising purposes</li>
-            </ul>
-            
-            <h3>4.3 Data Security</h3>
-            <p>We implement appropriate technical measures to protect your local data. However, please note that no method of transmission over the Internet or electronic storage is 100% secure.</p>
-            
-            <h2>5. Third-Party Services</h2>
-            <p>The App does not integrate with any third-party analytics, advertising, or tracking services. All operations are performed locally on your device.</p>
-            <p>If we add third-party services in the future, we will update this Privacy Policy accordingly.</p>
-            
-            <h2>6. Children's Privacy</h2>
-            <p>The App does not knowingly collect personal information from children under the age of 13. If you are a parent or guardian and believe your child has provided us with personal information, please contact us.</p>
-            
-            <h2>7. Your Rights and Choices</h2>
-            <p>You have the following rights regarding your data:</p>
-            <ul>
-                <li><strong>Access</strong>: View all data stored locally on your device</li>
-                <li><strong>Delete</strong>: Remove paired devices and preferences through the App settings</li>
-                <li><strong>Revoke Permissions</strong>: Disable Bluetooth or Location permissions through device settings</li>
-                <li><strong>Uninstall</strong>: Completely remove the App and all associated data by uninstalling</li>
-            </ul>
-            
-            <h2>8. Changes to This Privacy Policy</h2>
-            <p>We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last updated" date.</p>
-            <p>You are advised to review this Privacy Policy periodically for any changes.</p>
-            
-            <h2>9. Contact Us</h2>
-            <div class="contact-info">
-                <p>If you have any questions or concerns about this Privacy Policy, please contact us at:</p>
-                <ul>
-                    <li><strong>Email</strong>: [Your Email Address]</li>
-                    <li><strong>GitHub</strong>: [Your GitHub Repository URL, if applicable]</li>
-                </ul>
-            </div>
-        </section>
-        
-        <!-- Chinese Version -->
-        <section id="chinese" class="language-section">
-            <h1>潜派创新 隐私政策</h1>
-            <p class="last-updated">最后更新日期：2026年1月</p>
-            
+        <!-- 中文版本 -->
+        <section id="chinese">
+            <h1>深圳市潜派创新技术有限公司 隐私政策</h1>
+            <p class="last-updated">最后更新日期：2026年9月22日　|　适用应用：QPLight（版本 V1.0.1）</p>
+
             <h2>1. 引言</h2>
-            <p>欢迎使用潜派创新（QPLight）（以下简称"我们"）。我们致力于保护您的隐私并确保您的个人信息安全。本隐私政策说明了当您使用我们的移动应用程序（以下简称"应用"）时，我们如何收集、使用、披露和保护您的信息。</p>
-            <p>使用本应用即表示您同意按照本政策收集和使用信息。如果您不同意本隐私政策的条款，请勿访问本应用。</p>
-            
-            <h2>2. 我们收集的信息</h2>
-            
-            <h3>2.1 您提供的信息</h3>
-            <p>我们不收集您通过应用自愿提供的任何个人信息。应用不需要用户注册或创建账户。</p>
-            
-            <h3>2.2 自动收集的信息</h3>
-            <p>应用可能会自动收集某些信息，包括：</p>
-            <ul>
-                <li>设备信息（设备型号、操作系统版本）</li>
-                <li>应用使用数据（使用的功能、会话时长）</li>
-                <li>崩溃报告和性能数据（如果启用）</li>
-            </ul>
-            
-            <h3>2.3 蓝牙和位置数据</h3>
-            <p>为提供核心功能，应用需要访问：</p>
-            <ul>
-                <li><strong>蓝牙</strong>：用于发现、连接和控制支持 BLE 的照明设备</li>
-                <li><strong>位置服务</strong>：Android 系统要求扫描附近蓝牙设备时需要此权限</li>
-            </ul>
-            
+            <p>本隐私政策由 <strong>深圳市潜派创新技术有限公司</strong>（以下简称"我们"）制定并发布，适用于我们开发并运营的移动应用程序 <strong>QPLight</strong>（以下简称"本应用"）。我们深知个人信息对您的重要性，并致力于保护您的隐私安全。</p>
+            <p>请您在使用本应用前仔细阅读并充分理解本政策。您开始使用本应用，即表示您已阅读、理解并同意本政策的全部内容。如您不同意本政策的任何内容，请停止使用本应用。</p>
+
             <div class="important-note">
-                <strong>重要说明：</strong>
+                <strong>核心说明：本应用为纯离线单机应用。</strong>
                 <ul style="margin-top: 10px;">
-                    <li>我们<span class="highlight">不会</span>收集、存储或向任何服务器传输您的位置数据</li>
-                    <li>位置权限仅在您的设备上本地用于蓝牙扫描</li>
-                    <li>蓝牙连接数据保留在您的设备上，不与第三方共享</li>
-                    <li>设备名称和 MAC 地址仅本地存储以便您使用</li>
+                    <li>本应用<strong>不申请网络访问权限（<code>android.permission.INTERNET</code>）</strong>，在操作系统层面即不具备任何联网能力</li>
+                    <li>本应用<strong>不设服务器</strong>，无域名、无接口地址，不会向任何服务器传输数据</li>
+                    <li>本应用<strong>不收集</strong>您的任何个人身份信息</li>
+                    <li>本应用<strong>未集成</strong>任何数据统计、用户行为分析、消息推送、广告投放或崩溃收集组件</li>
                 </ul>
             </div>
-            
-            <h2>3. 我们如何使用您的信息</h2>
-            <p>我们仅将收集的信息用于以下目的：</p>
+
+            <h2>2. 我们收集的信息</h2>
+
+            <h3>2.1 您主动提供的信息</h3>
+            <p>我们<strong>不收集</strong>您通过本应用主动提供的任何个人信息。本应用无需注册、无需登录、无需创建账户，不会要求您提供姓名、手机号码、电子邮箱、身份证件号码等任何信息。</p>
+
+            <h3>2.2 本应用不收集的信息</h3>
+            <p>本应用<strong>不会</strong>收集、存储或传输下列任何信息：</p>
             <ul>
-                <li>实现与照明设备的蓝牙连接</li>
-                <li>提供灯光控制功能（亮度、颜色、色温）</li>
-                <li>本地保存您的设备配对偏好</li>
-                <li>改善应用性能和用户体验</li>
-                <li>排查技术问题</li>
+                <li>个人身份信息：姓名、手机号码、电子邮箱、身份证件号码、人脸信息等</li>
+                <li>地理位置信息：不读取、不记录、不上传您的真实地理位置</li>
+                <li>通讯录、短信、通话记录</li>
+                <li>相册、文件、麦克风及摄像头内容</li>
+                <li>用于追踪或用户画像的设备标识符</li>
+                <li>应用安装列表</li>
+                <li>应用使用行为数据、页面埋点数据</li>
             </ul>
-            
-            <h2>4. 数据存储和安全</h2>
-            
+
+            <div class="important-note">
+                <strong>关于设备信息的说明：</strong>本应用会读取设备的基础标识信息（Android 系统为 <code>ANDROID_ID</code>，iOS 系统为 <code>identifierForVendor</code>），
+                其<strong>唯一用途</strong>是在您的设备本地生成固定的灯具控制地址（RF297L 协议地址），以确保同一台手机对同一组灯具的控制地址保持稳定。
+                该信息<strong>仅在本机进行计算与存储，不会上传至任何服务器，不会用于识别您的真实身份，也不会用于追踪或用户画像</strong>。
+            </div>
+
+            <h3>2.3 蓝牙与位置权限</h3>
+            <p>为实现灯光控制这一核心功能，本应用需要申请下列权限。所有权限的用途如下表所示，<strong>均不涉及个人信息的收集与上传</strong>：</p>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th style="width: 30%;">权限名称</th>
+                        <th>用途说明</th>
+                        <th style="width: 12%;">是否上传</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>蓝牙扫描<br><code>BLUETOOTH_SCAN</code></td>
+                        <td>搜索并发现您附近的智能照明设备。本应用已声明 <code>neverForLocation</code> 标志，<strong>不会</strong>通过蓝牙扫描结果推断或获取您的地理位置。</td>
+                        <td>否</td>
+                    </tr>
+                    <tr>
+                        <td>蓝牙连接<br><code>BLUETOOTH_CONNECT</code></td>
+                        <td>与您的智能照明设备建立蓝牙通信，用于读取设备状态及下发控制指令。</td>
+                        <td>否</td>
+                    </tr>
+                    <tr>
+                        <td>蓝牙广播<br><code>BLUETOOTH_ADVERTISE</code></td>
+                        <td>以 BLE 广播（Advertising）方式向照明设备发送控制信号。这是本应用与灯具通信的主要方式。</td>
+                        <td>否</td>
+                    </tr>
+                    <tr>
+                        <td>蓝牙<br><code>BLUETOOTH</code><br><code>BLUETOOTH_ADMIN</code></td>
+                        <td>仅适用于 Android 11 及以下系统，用于实现上述蓝牙通信功能。</td>
+                        <td>否</td>
+                    </tr>
+                    <tr>
+                        <td>位置信息<br><code>ACCESS_FINE_LOCATION</code><br><code>ACCESS_COARSE_LOCATION</code></td>
+                        <td><strong>仅为满足 Android 11 及以下系统对蓝牙扫描的技术性要求而申请</strong>（该系统版本下，扫描蓝牙设备必须持有位置权限，属操作系统层面的强制要求）。
+                            本应用<strong>不会</strong>读取、收集、存储或上传您的真实地理位置信息。<br><br>
+                            本应用已为该权限声明 <code>maxSdkVersion="30"</code>，即仅在 Android 11 及以下系统中申请。
+                            <strong>在 Android 12 及以上系统中，本应用不会向您申请该权限。</strong></td>
+                        <td>否</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <p>此外，本应用声明依赖蓝牙低功耗硬件能力（<code>android.hardware.bluetooth_le</code>），这是运行本应用的必要条件。</p>
+
+            <h3>2.4 您在应用内设置的参数</h3>
+            <p>您在本应用中设置的灯光参数（包括颜色、亮度、色温、灯具分组名称、定时设置、语言偏好等）默认保存在<strong>您设备的本地存储</strong>中，仅用于恢复您的使用偏好。这些数据不会离开您的设备，卸载本应用即会一并删除。</p>
+
+            <h2>3. 我们如何使用信息</h2>
+            <p>本应用对上述权限与本地数据的使用，仅限于实现下列功能：</p>
+            <ul>
+                <li>搜索、连接并控制您附近的智能照明设备</li>
+                <li>实现灯光控制功能（开关、亮度、颜色、色温调节）</li>
+                <li>在本地保存您的灯具配对信息与偏好设置</li>
+                <li>在本地生成并管理灯具控制地址</li>
+            </ul>
+            <p>我们<strong>不会</strong>将任何信息用于广告投放、用户画像、行为分析或任何与上述功能无关的用途。</p>
+
+            <h2>4. 信息的存储与安全</h2>
+
             <h3>4.1 本地存储</h3>
-            <p>应用收集的所有数据都<span class="highlight">存储在您的设备本地</span>，包括：</p>
+            <p>本应用产生的全部数据均<strong>存储在您的设备本地</strong>，包括：</p>
             <ul>
-                <li>配对设备信息（设备名称、MAC 地址）</li>
-                <li>用户偏好（亮度级别、颜色设置）</li>
-                <li>应用程序设置</li>
+                <li>灯具配对信息（灯具分组名称、控制地址）</li>
+                <li>用户偏好设置（亮度、颜色、色温、定时、语言）</li>
+                <li>应用基础配置</li>
             </ul>
-            
+
             <h3>4.2 无服务器通信</h3>
-            <p>应用<span class="highlight">不会</span>：</p>
+            <p>本应用<strong>不具备联网能力</strong>，因此：</p>
             <ul>
-                <li>向外部服务器上传任何数据</li>
-                <li>与第三方服务共享数据</li>
-                <li>使用云存储或同步功能</li>
-                <li>出于广告目的跟踪用户行为</li>
+                <li>不会向任何外部服务器上传数据</li>
+                <li>不会与任何第三方服务共享数据</li>
+                <li>不使用云存储或数据同步功能</li>
+                <li>不会出于广告目的追踪用户行为</li>
+                <li>不存在将您的信息上传至任何云端服务器的情况</li>
             </ul>
-            
-            <h3>4.3 数据安全</h3>
-            <p>我们实施适当的技术措施来保护您的本地数据。但请注意，没有任何通过互联网传输或电子存储的方法是 100% 安全的。</p>
-            
-            <h2>5. 第三方服务</h2>
-            <p>应用未集成任何第三方分析、广告或跟踪服务。所有操作都在您的设备上本地执行。</p>
-            <p>如果我们在未来添加第三方服务，我们将相应更新本隐私政策。</p>
-            
-            <h2>6. 儿童隐私</h2>
-            <p>应用不会故意收集 13 岁以下儿童的个人信息。如果您是家长或监护人，并认为您的孩子向我们提供了个人信息，请联系我们。</p>
-            
-            <h2>7. 您的权利和选择</h2>
-            <p>您对您的数据拥有以下权利：</p>
+            <p>本应用与灯具之间的通信仅通过蓝牙低功耗（BLE）广播完成，属于<strong>短距离本地射频通信</strong>，不经过互联网，也不经过任何中间服务器。</p>
+
+            <h3>4.3 信息安全</h3>
+            <p>本应用不进行任何数据传输与云端存储，您的信息不存在因网络传输或服务器存储而被泄露、篡改或丢失的风险。存储在设备本地的数据受操作系统自身的<strong>应用沙箱机制</strong>保护，其他应用无法读取。</p>
+
+            <h2>5. 第三方服务与开源组件</h2>
+            <p>本应用<strong>未集成</strong>任何第三方数据统计、用户行为分析、消息推送、广告投放或崩溃收集服务。本应用<strong>不含任何广告</strong>。</p>
+            <p>本应用在开发中使用了下列开源软件组件，仅用于实现核心功能，<strong>均不涉及个人信息的收集与上传</strong>：</p>
             <ul>
-                <li><strong>访问</strong>：查看存储在设备本地的所有数据</li>
-                <li><strong>删除</strong>：通过应用设置移除配对设备和偏好</li>
-                <li><strong>撤销权限</strong>：通过设备设置禁用蓝牙或位置权限</li>
-                <li><strong>卸载</strong>：通过卸载完全删除应用及所有相关数据</li>
+                <li><code>flutter_blue_plus</code> —— 提供蓝牙通信能力</li>
+                <li><code>permission_handler</code> —— 申请系统运行所需权限</li>
+                <li><code>shared_preferences</code> —— 在本地保存应用偏好设置</li>
+                <li><code>device_info_plus</code> —— 读取设备基础标识，用于在本地生成固定的灯具控制地址</li>
             </ul>
-            
-            <h2>8. 隐私政策的变更</h2>
-            <p>我们可能会不时更新本隐私政策。我们会在此页面发布新的隐私政策并更新"最后更新日期"来通知您任何变更。</p>
-            <p>建议您定期查看本隐私政策以了解任何变更。</p>
-            
+
+            <h2>6. 未成年人保护</h2>
+            <p>本应用为智能照明设备控制工具，<strong>不以未成年人为服务对象</strong>，也不会主动收集未成年人的个人信息。若您是未成年人，请在监护人的指导下使用本应用。若监护人发现在未获同意的情况下收集了未成年人信息（本应用实际上不收集任何个人信息），请联系我们，我们将及时处理。</p>
+
+            <h2>7. 您的权利</h2>
+            <p>您对您的信息享有下列权利：</p>
+            <ul>
+                <li><strong>访问</strong>：查看存储在本设备本地的全部数据</li>
+                <li><strong>删除</strong>：通过应用内的重命名或配对功能管理灯具信息，或清除应用数据</li>
+                <li><strong>撤销权限</strong>：随时通过系统设置关闭蓝牙或位置权限（路径：系统「设置」→「应用」→「QPLight」→「权限」）</li>
+                <li><strong>卸载</strong>：卸载本应用将完全删除本应用及全部相关本地数据</li>
+            </ul>
+            <p>若您拒绝授予某项权限，本应用不会退出，您仍可使用不依赖该权限的其他功能。</p>
+
+            <h2>8. 本政策的变更</h2>
+            <p>我们可能会适时更新本隐私政策。若本政策发生重大变更（例如本应用新增联网功能、新增数据处理行为），我们将通过应用内提示或本页面公告的方式通知您，并更新本页面的"最后更新日期"。</p>
+            <p>我们建议您定期查阅本政策以了解最新内容。</p>
+
+            <div class="important-note">
+                <strong>我们的承诺：</strong>若未来版本引入任何联网功能或第三方数据服务，我们将在该版本发布前依法履行相应的备案手续，
+                并在本政策中<strong>如实、完整地披露</strong>相关数据处理行为，且在获得您的<strong>明确同意</strong>后方才启用。
+            </div>
+
             <h2>9. 联系我们</h2>
             <div class="contact-info">
-                <p>如果您对本隐私政策有任何疑问或顾虑，请通过以下方式联系我们：</p>
+                <p>如您对本隐私政策或本应用的个人信息处理方式有任何疑问、意见或投诉，请通过以下方式联系我们：</p>
                 <ul>
-                    <li><strong>电子邮件</strong>：[您的联系邮箱]</li>
-                    <li><strong>GitHub</strong>：[您的项目地址，如有]</li>
+                    <li><strong>开发运营者</strong>：深圳市潜派创新技术有限公司</li>
+                    <li><strong>应用名称</strong>：QPLight</li>
+                    <li><strong>联系邮箱</strong>：<a href="mailto:283626656@qq.com">283626656@qq.com</a></li>
+                    <li><strong>回复时限</strong>：我们将在收到您的问题后 15 个工作日内予以回复</li>
                 </ul>
             </div>
+
+            <p style="margin-top: 30px; color: #7f8c8d; font-size: 0.95em;">本政策自 2026年9月22日 起生效。</p>
+        </section>
+
+        <!-- English Version -->
+        <section id="english" class="language-section">
+            <h1>Privacy Policy</h1>
+            <p class="last-updated">Last updated: September 22, 2026 | App: QPLight (V1.0.1)</p>
+
+            <h2>1. Introduction</h2>
+            <p>This Privacy Policy is issued by <strong>Shenzhen Qianpai Innovation Technology Co., Ltd.</strong> ("we," "our," or "us") and applies to our mobile application <strong>QPLight</strong> (the "App"). We are committed to protecting your privacy.</p>
+            <p>Please read this policy carefully before using the App. By using the App, you acknowledge that you have read, understood, and agreed to this policy. If you do not agree with any part of it, please stop using the App.</p>
+
+            <div class="important-note">
+                <strong>Key Point: The App is a fully offline, standalone application.</strong>
+                <ul style="margin-top: 10px;">
+                    <li>The App does <strong>NOT request network access permission</strong> (<code>android.permission.INTERNET</code>), and therefore has <strong>no network capability</strong> at the operating system level</li>
+                    <li>The App has <strong>no server, no domain, and no API endpoint</strong>, and never transmits data to any server</li>
+                    <li>The App does <strong>NOT collect</strong> any personally identifiable information</li>
+                    <li>The App contains <strong>no</strong> analytics, behavioral tracking, push notification, advertising, or crash-reporting components</li>
+                </ul>
+            </div>
+
+            <h2>2. Information We Collect</h2>
+
+            <h3>2.1 Information You Provide</h3>
+            <p>We do <strong>NOT collect</strong> any personal information you voluntarily provide through the App. The App requires no registration, no login, and no account creation. It never asks for your name, phone number, email address, ID number, or any similar information.</p>
+
+            <h3>2.2 Information the App Does NOT Collect</h3>
+            <p>The App does <strong>NOT</strong> collect, store, or transmit any of the following:</p>
+            <ul>
+                <li>Personal identifiers: name, phone number, email, ID number, facial data, etc.</li>
+                <li>Geographic location: your real location is never read, recorded, or uploaded</li>
+                <li>Contacts, SMS, or call logs</li>
+                <li>Photos, files, microphone, or camera content</li>
+                <li>Device identifiers used for tracking or profiling</li>
+                <li>Installed application lists</li>
+                <li>App usage or behavioral analytics data</li>
+            </ul>
+
+            <div class="important-note">
+                <strong>About device information:</strong> The App reads a basic device identifier (Android: <code>ANDROID_ID</code>; iOS: <code>identifierForVendor</code>)
+                for the <strong>sole purpose</strong> of generating a stable light-control address (RF297L protocol address) <strong>locally on your device</strong>,
+                ensuring that the same phone keeps a consistent control address for the same set of lights.
+                This information is <strong>computed and stored only on your device. It is never uploaded to any server, never used to identify you,
+                and never used for tracking or profiling</strong>.
+            </div>
+
+            <h3>2.3 Bluetooth and Location Permissions</h3>
+            <p>To deliver the core lighting-control functionality, the App requests the following permissions. All are used solely as described below and <strong>none involve collection or upload of personal information</strong>:</p>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th style="width: 30%;">Permission</th>
+                        <th>Purpose</th>
+                        <th style="width: 12%;">Uploaded?</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Bluetooth Scan<br><code>BLUETOOTH_SCAN</code></td>
+                        <td>To discover nearby smart lighting devices. The App declares <code>neverForLocation</code>; it does <strong>NOT</strong> infer or obtain your location from scan results.</td>
+                        <td>No</td>
+                    </tr>
+                    <tr>
+                        <td>Bluetooth Connect<br><code>BLUETOOTH_CONNECT</code></td>
+                        <td>To establish a Bluetooth connection with your lighting devices for reading status and sending control commands.</td>
+                        <td>No</td>
+                    </tr>
+                    <tr>
+                        <td>Bluetooth Advertise<br><code>BLUETOOTH_ADVERTISE</code></td>
+                        <td>To send control signals to lighting devices via BLE advertising. This is the App's primary communication method.</td>
+                        <td>No</td>
+                    </tr>
+                    <tr>
+                        <td>Bluetooth<br><code>BLUETOOTH</code><br><code>BLUETOOTH_ADMIN</code></td>
+                        <td>Applies only to Android 11 and below, for the Bluetooth functions described above.</td>
+                        <td>No</td>
+                    </tr>
+                    <tr>
+                        <td>Location<br><code>ACCESS_FINE_LOCATION</code><br><code>ACCESS_COARSE_LOCATION</code></td>
+                        <td><strong>Requested solely to satisfy an Android technical requirement for Bluetooth scanning on Android 11 and below</strong>
+                            (on those versions, scanning for Bluetooth devices requires location permission — an operating-system-level constraint).
+                            The App does <strong>NOT</strong> read, collect, store, or upload your real geographic location.<br><br>
+                            The App declares <code>maxSdkVersion="30"</code> for this permission, so it is requested only on Android 11 and below.
+                            <strong>On Android 12 and above, the App does not request this permission at all.</strong></td>
+                        <td>No</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <p>The App also declares a dependency on Bluetooth Low Energy hardware (<code>android.hardware.bluetooth_le</code>), which is required to run the App.</p>
+
+            <h3>2.4 Settings You Configure in the App</h3>
+            <p>Lighting parameters you configure (color, brightness, color temperature, group names, timers, language preference) are stored <strong>locally on your device</strong> solely to restore your preferences. This data never leaves your device and is deleted when you uninstall the App.</p>
+
+            <h2>3. How We Use Information</h2>
+            <p>Use of the permissions and local data described above is limited strictly to the following:</p>
+            <ul>
+                <li>Discovering, connecting to, and controlling nearby smart lighting devices</li>
+                <li>Providing lighting control (power, brightness, color, color temperature)</li>
+                <li>Saving your pairing information and preferences locally</li>
+                <li>Generating and managing light-control addresses locally</li>
+            </ul>
+            <p>We do <strong>NOT</strong> use any information for advertising, profiling, behavioral analysis, or any purpose unrelated to the functions above.</p>
+
+            <h2>4. Data Storage and Security</h2>
+
+            <h3>4.1 Local Storage</h3>
+            <p>All data generated by the App is stored <strong>locally on your device</strong>, including:</p>
+            <ul>
+                <li>Lighting device pairing information (group names, control addresses)</li>
+                <li>User preferences (brightness, color, color temperature, timers, language)</li>
+                <li>Basic application configuration</li>
+            </ul>
+
+            <h3>4.2 No Server Communication</h3>
+            <p>Because the App has <strong>no network capability</strong>, it:</p>
+            <ul>
+                <li>Never uploads data to any external server</li>
+                <li>Never shares data with any third-party service</li>
+                <li>Uses no cloud storage or synchronization</li>
+                <li>Never tracks user behavior for advertising</li>
+                <li>Has no means of transmitting your information to any server</li>
+            </ul>
+            <p>Communication between the App and lighting devices occurs exclusively via Bluetooth Low Energy (BLE) advertising — a <strong>short-range local radio link</strong> that does not traverse the internet or any intermediary server.</p>
+
+            <h3>4.3 Data Security</h3>
+            <p>Since the App performs no data transmission and no cloud storage, your information is not exposed to risks associated with network transmission or server-side storage. Data stored locally is protected by the operating system's <strong>application sandbox</strong>, which prevents other apps from reading it.</p>
+
+            <h2>5. Third-Party Services and Open-Source Components</h2>
+            <p>The App does <strong>NOT</strong> integrate any third-party analytics, behavioral tracking, push notification, advertising, or crash-reporting services. The App contains <strong>no advertising</strong>.</p>
+            <p>The App uses the following open-source components solely for core functionality. <strong>None involve collection or upload of personal information</strong>:</p>
+            <ul>
+                <li><code>flutter_blue_plus</code> — Bluetooth communication capability</li>
+                <li><code>permission_handler</code> — requesting permissions required for operation</li>
+                <li><code>shared_preferences</code> — storing app preferences locally</li>
+                <li><code>device_info_plus</code> — reading a basic device identifier to generate a stable light-control address locally</li>
+            </ul>
+
+            <h2>6. Children's Privacy</h2>
+            <p>The App is a smart lighting control tool and is <strong>not directed at children</strong>. It does not knowingly collect personal information from children. Children should use the App under the guidance of a parent or guardian. If a guardian believes that a child's information has been collected without consent (the App in fact collects no personal information), please contact us and we will address it promptly.</p>
+
+            <h2>7. Your Rights</h2>
+            <p>You have the following rights regarding your information:</p>
+            <ul>
+                <li><strong>Access</strong>: View all data stored locally on your device</li>
+                <li><strong>Delete</strong>: Manage lighting information via the in-app rename or pairing functions, or clear app data</li>
+                <li><strong>Revoke Permissions</strong>: Disable Bluetooth or Location permissions at any time via system settings (Settings → Apps → QPLight → Permissions)</li>
+                <li><strong>Uninstall</strong>: Uninstalling the App completely removes the App and all associated local data</li>
+            </ul>
+            <p>If you decline a permission, the App will not exit; you may still use features that do not depend on it.</p>
+
+            <h2>8. Changes to This Privacy Policy</h2>
+            <p>We may update this Privacy Policy from time to time. If we make material changes (for example, adding network functionality or new data-processing behavior), we will notify you via an in-app notice or a notice on this page, and update the "Last updated" date above.</p>
+            <p>We encourage you to review this policy periodically.</p>
+
+            <div class="important-note">
+                <strong>Our commitment:</strong> If any future version introduces network functionality or third-party data services, we will complete the required filings
+                under applicable law before releasing that version, <strong>fully and accurately disclose</strong> the relevant data-processing behavior in this policy,
+                and enable such features only after obtaining your <strong>explicit consent</strong>.
+            </div>
+
+            <h2>9. Contact Us</h2>
+            <div class="contact-info">
+                <p>If you have any questions, concerns, or complaints about this Privacy Policy or how the App handles personal information, please contact us:</p>
+                <ul>
+                    <li><strong>Developer / Operator</strong>: Shenzhen Qianpai Innovation Technology Co., Ltd.</li>
+                    <li><strong>App Name</strong>: QPLight</li>
+                    <li><strong>Email</strong>: <a href="mailto:283626656@qq.com">283626656@qq.com</a></li>
+                    <li><strong>Response Time</strong>: We will respond within 15 business days of receiving your inquiry</li>
+                </ul>
+            </div>
+
+            <p style="margin-top: 30px; color: #7f8c8d; font-size: 0.95em;">This policy takes effect on September 22, 2026.</p>
         </section>
     </div>
 </body>
